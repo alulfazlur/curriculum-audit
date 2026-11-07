@@ -1,0 +1,133 @@
+{
+  "n_by_layer": {
+    "CP": 52,
+    "module": 462,
+    "BS": 9060
+  },
+  "en_by_layer": {
+    "Intended (CP)": {
+      "EN01": 3.85,
+      "EN02": 26.92,
+      "EN03": 7.69,
+      "EN04": 7.69,
+      "EN05": 0.0,
+      "EN06": 3.85,
+      "EN07": 3.85,
+      "EN08": 1.92
+    },
+    "Designed (Modul)": {
+      "EN01": 3.46,
+      "EN02": 17.32,
+      "EN03": 1.95,
+      "EN04": 4.76,
+      "EN05": 0.43,
+      "EN06": 1.52,
+      "EN07": 8.44,
+      "EN08": 2.81
+    },
+    "Represented (Buku Siswa)": {
+      "EN01": 4.62,
+      "EN02": 9.35,
+      "EN03": 0.39,
+      "EN04": 0.68,
+      "EN05": 0.04,
+      "EN06": 0.13,
+      "EN07": 1.32,
+      "EN08": 0.09
+    }
+  },
+  "concept_by_layer": {
+    "Intended (CP)": {
+      "gen": 0.0,
+      "metabolisme": 0.0,
+      "evolusi": 9.62,
+      "bioteknologi": 9.62,
+      "dna": 0.0,
+      "protein": 0.0,
+      "hereditas": 7.69,
+      "fotosintesis": 0.0,
+      "respirasi": 0.0,
+      "sistem_organ": 11.54,
+      "sel": 9.62,
+      "kromosom": 0.0,
+      "pembelahan_sel": 0.0,
+      "organel": 1.92,
+      "rna": 0.0,
+      "ekspresi_gen": 0.0,
+      "bakteri": 1.92,
+      "virus": 1.92,
+      "keanekaragaman": 5.77,
+      "ekosistem": 7.69,
+      "jamur": 1.92,
+      "membran_sel": 0.0,
+      "homeostasis": 0.0,
+      "perubahan_iklim": 5.77
+    },
+    "Designed (Modul)": {
+      "gen": 2.6,
+      "metabolisme": 0.65,
+      "evolusi": 7.36,
+      "bioteknologi": 0.22,
+      "dna": 3.9,
+      "protein": 3.46,
+      "hereditas": 0.43,
+      "fotosintesis": 0.0,
+      "respirasi": 0.0,
+      "sistem_organ": 11.26,
+      "sel": 1.73,
+      "kromosom": 0.87,
+      "pembelahan_sel": 0.22,
+      "organel": 0.22,
+      "rna": 2.81,
+      "ekspresi_gen": 1.08,
+      "bakteri": 0.65,
+      "virus": 6.49,
+      "keanekaragaman": 3.25,
+      "ekosistem": 0.65,
+      "jamur": 0.0,
+      "membran_sel": 0.0,
+      "homeostasis": 0.0,
+      "perubahan_iklim": 3.46
+    },
+    "Represented (Buku Siswa)": {
+      "gen": 2.73,
+      "metabolisme": 0.98,
+      "evolusi": 1.83,
+      "bioteknologi": 2.2,
+      "dna": 2.47,
+      "protein": 3.92,
+      "hereditas": 1.23,
+      "fotosintesis": 0.85,
+      "respirasi": 0.43,
+      "sistem_organ": 2.98,
+      "sel": 8.22,
+      "kromosom": 1.56,
+      "pembelahan_sel": 0.76,
+      "organel": 1.36,
+      "rna": 0.89,
+      "ekspresi_gen": 0.47,
+      "bakteri": 1.17,
+      "virus": 3.06,
+      "keanekaragaman": 0.61,
+      "ekosistem": 0.81,
+      "jamur": 0.65,
+      "membran_sel": 0.95,
+      "homeostasis": 0.02,
+      "perubahan_iklim": 1.23
+    }
+  },
+  "bloom_by_layer": {
+    "Intended (CP)": {
+      "% kalimat dengan kata kerja Bloom": 25.0,
+      "rata-rata level Bloom kalimat tersebut": 2.77
+    },
+    "Designed (Modul)": {
+      "% kalimat dengan kata kerja Bloom": 19.0,
+      "rata-rata level Bloom kalimat tersebut": 2.26
+    },
+    "Represented (Buku Siswa)": {
+      "% kalimat dengan kata kerja Bloom": 7.6,
+      "rata-rata level Bloom kalimat tersebut": 2.15
+    }
+  }
+}

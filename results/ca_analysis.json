@@ -1,0 +1,631 @@
+{
+  "CA01": {
+    "gen": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 7,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 271
+    },
+    "metabolisme": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 6,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 110
+    },
+    "evolusi": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 6,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide",
+        "module"
+      ],
+      "total": 225
+    },
+    "bioteknologi": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 7,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide",
+        "module"
+      ],
+      "total": 263
+    },
+    "dna": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 8,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 280
+    },
+    "protein": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 7,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 410
+    },
+    "hereditas": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 7,
+      "doc_types": [
+        "BS",
+        "CP",
+        "guide",
+        "module"
+      ],
+      "total": 163
+    },
+    "fotosintesis": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 4,
+      "doc_types": [
+        "BS",
+        "guide"
+      ],
+      "total": 86
+    },
+    "respirasi": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 4,
+      "doc_types": [
+        "BS",
+        "guide"
+      ],
+      "total": 41
+    },
+    "sistem_organ": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 10,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide",
+        "module"
+      ],
+      "total": 424
+    },
+    "sel": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 9,
+      "doc_types": [
+        "BS",
+        "CP",
+        "guide",
+        "module"
+      ],
+      "total": 831
+    },
+    "kromosom": {
+      "CA01": 1,
+      "phases": [
+        "F"
+      ],
+      "n_docs": 3,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 163
+    },
+    "pembelahan_sel": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 5,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 93
+    },
+    "organel": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 6,
+      "doc_types": [
+        "BS",
+        "CP",
+        "guide",
+        "module"
+      ],
+      "total": 138
+    },
+    "rna": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 5,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 114
+    },
+    "ekspresi_gen": {
+      "CA01": 1,
+      "phases": [
+        "F"
+      ],
+      "n_docs": 4,
+      "doc_types": [
+        "BS",
+        "guide",
+        "module"
+      ],
+      "total": 50
+    },
+    "bakteri": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 7,
+      "doc_types": [
+        "BS",
+        "CP",
+        "guide",
+        "module"
+      ],
+      "total": 131
+    },
+    "virus": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 8,
+      "doc_types": [
+        "BS",
+        "CP",
+        "guide",
+        "module"
+      ],
+      "total": 319
+    },
+    "keanekaragaman": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 9,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide",
+        "module"
+      ],
+      "total": 95
+    },
+    "ekosistem": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 10,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide",
+        "module"
+      ],
+      "total": 137
+    },
+    "jamur": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 6,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide"
+      ],
+      "total": 78
+    },
+    "membran_sel": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 3,
+      "doc_types": [
+        "BS",
+        "guide"
+      ],
+      "total": 92
+    },
+    "homeostasis": {
+      "CA01": 1,
+      "phases": [
+        "F"
+      ],
+      "n_docs": 2,
+      "doc_types": [
+        "BS",
+        "guide"
+      ],
+      "total": 3
+    },
+    "perubahan_iklim": {
+      "CA01": 1,
+      "phases": [
+        "E",
+        "F"
+      ],
+      "n_docs": 9,
+      "doc_types": [
+        "BS",
+        "CP",
+        "assess",
+        "guide",
+        "module"
+      ],
+      "total": 202
+    }
+  },
+  "CA02": {
+    "gen": {
+      "CA02": null,
+      "n_E": 1,
+      "n_F": 27,
+      "reason": "insufficient data"
+    },
+    "metabolisme": {
+      "CA02": null,
+      "n_E": 1,
+      "n_F": 10,
+      "reason": "insufficient data"
+    },
+    "evolusi": {
+      "CA02": null,
+      "n_E": 1,
+      "n_F": 48,
+      "reason": "insufficient data"
+    },
+    "bioteknologi": {
+      "CA02": 0,
+      "bloom_E": 2.86,
+      "bloom_F": 2.4,
+      "n_E": 7,
+      "n_F": 45
+    },
+    "dna": {
+      "CA02": null,
+      "n_E": 3,
+      "n_F": 37,
+      "reason": "insufficient data"
+    },
+    "protein": {
+      "CA02": null,
+      "n_E": 3,
+      "n_F": 38,
+      "reason": "insufficient data"
+    },
+    "hereditas": {
+      "CA02": 0,
+      "bloom_E": 2.83,
+      "bloom_F": 2.31,
+      "n_E": 6,
+      "n_F": 29
+    },
+    "fotosintesis": {
+      "CA02": null,
+      "n_E": 1,
+      "n_F": 12,
+      "reason": "insufficient data"
+    },
+    "respirasi": {
+      "CA02": null,
+      "n_E": 0,
+      "n_F": 5,
+      "reason": "insufficient data"
+    },
+    "sistem_organ": {
+      "CA02": 0,
+      "bloom_E": 2.62,
+      "bloom_F": 2.15,
+      "n_E": 16,
+      "n_F": 79
+    },
+    "sel": {
+      "CA02": 0,
+      "bloom_E": 2.2,
+      "bloom_F": 1.95,
+      "n_E": 5,
+      "n_F": 74
+    },
+    "kromosom": {
+      "CA02": null,
+      "n_E": 0,
+      "n_F": 11,
+      "reason": "insufficient data"
+    },
+    "pembelahan_sel": {
+      "CA02": null,
+      "n_E": 0,
+      "n_F": 12,
+      "reason": "insufficient data"
+    },
+    "organel": {
+      "CA02": null,
+      "n_E": 2,
+      "n_F": 14,
+      "reason": "insufficient data"
+    },
+    "rna": {
+      "CA02": null,
+      "n_E": 0,
+      "n_F": 12,
+      "reason": "insufficient data"
+    },
+    "ekspresi_gen": {
+      "CA02": null,
+      "n_E": 0,
+      "n_F": 7,
+      "reason": "insufficient data"
+    },
+    "bakteri": {
+      "CA02": 0,
+      "bloom_E": 2.56,
+      "bloom_F": 1.67,
+      "n_E": 9,
+      "n_F": 9
+    },
+    "virus": {
+      "CA02": 0,
+      "bloom_E": 2.32,
+      "bloom_F": 1.86,
+      "n_E": 25,
+      "n_F": 7
+    },
+    "keanekaragaman": {
+      "CA02": 0,
+      "bloom_E": 2.67,
+      "bloom_F": 2.56,
+      "n_E": 6,
+      "n_F": 9
+    },
+    "ekosistem": {
+      "CA02": null,
+      "n_E": 14,
+      "n_F": 1,
+      "reason": "insufficient data"
+    },
+    "jamur": {
+      "CA02": null,
+      "n_E": 8,
+      "n_F": 2,
+      "reason": "insufficient data"
+    },
+    "membran_sel": {
+      "CA02": null,
+      "n_E": 1,
+      "n_F": 18,
+      "reason": "insufficient data"
+    },
+    "homeostasis": {
+      "CA02": null,
+      "n_E": 0,
+      "n_F": 0,
+      "reason": "insufficient data"
+    },
+    "perubahan_iklim": {
+      "CA02": 0,
+      "bloom_E": 2.62,
+      "bloom_F": 2.6,
+      "n_E": 32,
+      "n_F": 5
+    }
+  },
+  "CA03": {
+    "bioteknologi": {
+      "CA03": 0,
+      "delta": -0.46
+    },
+    "hereditas": {
+      "CA03": 0,
+      "delta": -0.52
+    },
+    "sistem_organ": {
+      "CA03": 0,
+      "delta": -0.47
+    },
+    "sel": {
+      "CA03": 0,
+      "delta": -0.25
+    },
+    "bakteri": {
+      "CA03": 0,
+      "delta": -0.89
+    },
+    "virus": {
+      "CA03": 0,
+      "delta": -0.46
+    },
+    "keanekaragaman": {
+      "CA03": 0,
+      "delta": -0.11
+    },
+    "perubahan_iklim": {
+      "CA03": 0,
+      "delta": -0.02
+    }
+  },
+  "CA04": [
+    {
+      "pair": "Sel -> Membran Sel",
+      "prereq": "sel",
+      "subsequent": "membran_sel",
+      "CA04": 1,
+      "n_docs_both": 3,
+      "n_docs_ordered": 2,
+      "ratio": 0.67
+    },
+    {
+      "pair": "DNA -> Gen",
+      "prereq": "dna",
+      "subsequent": "gen",
+      "CA04": 0,
+      "n_docs_both": 7,
+      "n_docs_ordered": 2,
+      "ratio": 0.29
+    },
+    {
+      "pair": "Gen -> Kromosom",
+      "prereq": "gen",
+      "subsequent": "kromosom",
+      "CA04": 1,
+      "n_docs_both": 3,
+      "n_docs_ordered": 2,
+      "ratio": 0.67
+    },
+    {
+      "pair": "Gen -> Ekspresi Gen",
+      "prereq": "gen",
+      "subsequent": "ekspresi_gen",
+      "CA04": 1,
+      "n_docs_both": 4,
+      "n_docs_ordered": 4,
+      "ratio": 1.0
+    },
+    {
+      "pair": "Ekspresi Gen -> Protein",
+      "prereq": "ekspresi_gen",
+      "subsequent": "protein",
+      "CA04": 0,
+      "n_docs_both": 4,
+      "n_docs_ordered": 0,
+      "ratio": 0.0
+    },
+    {
+      "pair": "Protein/Enzim -> Metabolisme",
+      "prereq": "protein",
+      "subsequent": "metabolisme",
+      "CA04": 0,
+      "n_docs_both": 6,
+      "n_docs_ordered": 2,
+      "ratio": 0.33
+    },
+    {
+      "pair": "Sel -> Pembelahan Sel",
+      "prereq": "sel",
+      "subsequent": "pembelahan_sel",
+      "CA04": 1,
+      "n_docs_both": 5,
+      "n_docs_ordered": 4,
+      "ratio": 0.8
+    },
+    {
+      "pair": "Sel -> Sistem Organ",
+      "prereq": "sel",
+      "subsequent": "sistem_organ",
+      "CA04": 0,
+      "n_docs_both": 9,
+      "n_docs_ordered": 3,
+      "ratio": 0.33
+    },
+    {
+      "pair": "Hereditas -> Evolusi",
+      "prereq": "hereditas",
+      "subsequent": "evolusi",
+      "CA04": 0,
+      "n_docs_both": 5,
+      "n_docs_ordered": 0,
+      "ratio": 0.0
+    },
+    {
+      "pair": "Ekosistem -> Keanekaragaman",
+      "prereq": "ekosistem",
+      "subsequent": "keanekaragaman",
+      "CA04": 0,
+      "n_docs_both": 9,
+      "n_docs_ordered": 4,
+      "ratio": 0.44
+    }
+  ]
+}

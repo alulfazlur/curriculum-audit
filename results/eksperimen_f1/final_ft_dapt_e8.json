@@ -1,0 +1,79 @@
+{
+  "kandidat": "ft_dapt@8",
+  "komponen": [
+    "ft_dapt@8"
+  ],
+  "thresholds": {
+    "EN01": 0.55,
+    "EN02": 0.55,
+    "EN03": 0.35,
+    "EN04": 0.2,
+    "EN05": 0.25,
+    "EN06": 0.2,
+    "EN07": 0.5,
+    "EN08": 0.7
+  },
+  "cv_dev_macro_f1": 0.5813,
+  "cv_dev_f1": {
+    "EN01": 0.683,
+    "EN02": 0.575,
+    "EN03": 0.613,
+    "EN04": 0.667,
+    "EN05": 0.5,
+    "EN06": 0.384,
+    "EN07": 0.754,
+    "EN08": 0.476
+  },
+  "test_macro_f1": 0.3784,
+  "test_macro_f1_estimable": 0.4378,
+  "test": {
+    "EN01": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.333,
+      "test_pos": 5
+    },
+    "EN02": {
+      "precision": 0.5,
+      "recall": 0.412,
+      "f1": 0.452,
+      "test_pos": 17
+    },
+    "EN03": {
+      "precision": 0.556,
+      "recall": 0.417,
+      "f1": 0.476,
+      "test_pos": 12
+    },
+    "EN04": {
+      "precision": 0.375,
+      "recall": 0.667,
+      "f1": 0.48,
+      "test_pos": 9
+    },
+    "EN05": {
+      "precision": 0.333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "test_pos": 2
+    },
+    "EN06": {
+      "precision": 0.222,
+      "recall": 0.4,
+      "f1": 0.286,
+      "test_pos": 5
+    },
+    "EN07": {
+      "precision": 0.462,
+      "recall": 0.857,
+      "f1": 0.6,
+      "test_pos": 7
+    },
+    "EN08": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "test_pos": 2
+    }
+  }
+}

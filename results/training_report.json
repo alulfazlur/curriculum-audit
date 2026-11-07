@@ -1,0 +1,134 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.858,
+      "val_macro_f1": 0.2787
+    },
+    {
+      "epoch": 2,
+      "loss": 0.4848,
+      "val_macro_f1": 0.4692
+    },
+    {
+      "epoch": 3,
+      "loss": 0.2789,
+      "val_macro_f1": 0.4864
+    },
+    {
+      "epoch": 4,
+      "loss": 0.1788,
+      "val_macro_f1": 0.5104
+    },
+    {
+      "epoch": 5,
+      "loss": 0.1149,
+      "val_macro_f1": 0.4995
+    },
+    {
+      "epoch": 6,
+      "loss": 0.077,
+      "val_macro_f1": 0.5381
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0584,
+      "val_macro_f1": 0.5346
+    },
+    {
+      "epoch": 8,
+      "loss": 0.0475,
+      "val_macro_f1": 0.5514
+    }
+  ],
+  "test_report": [
+    {
+      "construct": "EN01",
+      "name": "Attention",
+      "gold_pos": 27,
+      "threshold": 0.25,
+      "precision": 0.5,
+      "recall": 0.4,
+      "f1": 0.444,
+      "test_pos": 5,
+      "estimable": true
+    },
+    {
+      "construct": "EN02",
+      "name": "Learning & Memory",
+      "gold_pos": 107,
+      "threshold": 0.2,
+      "precision": 0.48,
+      "recall": 0.706,
+      "f1": 0.571,
+      "test_pos": 17,
+      "estimable": true
+    },
+    {
+      "construct": "EN03",
+      "name": "Executive Function",
+      "gold_pos": 62,
+      "threshold": 0.8,
+      "precision": 0.833,
+      "recall": 0.417,
+      "f1": 0.556,
+      "test_pos": 12,
+      "estimable": true
+    },
+    {
+      "construct": "EN04",
+      "name": "Metacognition",
+      "gold_pos": 66,
+      "threshold": 0.55,
+      "precision": 0.4,
+      "recall": 0.222,
+      "f1": 0.286,
+      "test_pos": 9,
+      "estimable": true
+    },
+    {
+      "construct": "EN05",
+      "name": "Emotion/Affect",
+      "gold_pos": 14,
+      "threshold": 0.5,
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.667,
+      "test_pos": 2,
+      "estimable": false
+    },
+    {
+      "construct": "EN06",
+      "name": "Motivation/Agency",
+      "gold_pos": 33,
+      "threshold": 0.45,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "test_pos": 5,
+      "estimable": true
+    },
+    {
+      "construct": "EN07",
+      "name": "Social Cognition",
+      "gold_pos": 70,
+      "threshold": 0.85,
+      "precision": 0.571,
+      "recall": 0.571,
+      "f1": 0.571,
+      "test_pos": 7,
+      "estimable": true
+    },
+    {
+      "construct": "EN08",
+      "name": "Multimodal",
+      "gold_pos": 15,
+      "threshold": 0.25,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "test_pos": 2,
+      "estimable": false
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "model_name": "indobenchmark/indobert-base-p2",
+  "hyperparameters": {
+    "max_length": 128,
+    "batch_size": 16,
+    "epochs": 8,
+    "learning_rate": 2e-05,
+    "warmup_ratio": 0.1,
+    "max_pos_weight": 10.0
+  },
+  "thresholds": {
+    "EN01": 0.25,
+    "EN02": 0.2,
+    "EN03": 0.8,
+    "EN04": 0.55,
+    "EN05": 0.5,
+    "EN06": 0.45,
+    "EN07": 0.85,
+    "EN08": 0.25
+  },
+  "best_epoch": 8,
+  "val_macro_f1": 0.5514,
+  "test_macro_f1_all": 0.3869,
+  "test_macro_f1_estimable": 0.4048,
+  "split_sizes": {
+    "train": 643,
+    "val": 138,
+    "test": 138
+  },
+  "trained_at": "2026-10-29T17:56:26"
+}

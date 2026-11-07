@@ -1,0 +1,180 @@
+[22:56:41] dev 781 | test 138 | positif test [5, 17, 12, 9, 2, 5, 7, 2]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  66%|██████▌   | 130/197 [00:00<00:00, 1294.32it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1424.57it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+{
+  "kandidat": "ft_dapt@8",
+  "komponen": [
+    "ft_dapt@8"
+  ],
+  "thresholds": {
+    "EN01": 0.55,
+    "EN02": 0.55,
+    "EN03": 0.35,
+    "EN04": 0.2,
+    "EN05": 0.25,
+    "EN06": 0.2,
+    "EN07": 0.5,
+    "EN08": 0.7
+  },
+  "cv_dev_macro_f1": 0.5813,
+  "cv_dev_f1": {
+    "EN01": 0.683,
+    "EN02": 0.575,
+    "EN03": 0.613,
+    "EN04": 0.667,
+    "EN05": 0.5,
+    "EN06": 0.384,
+    "EN07": 0.754,
+    "EN08": 0.476
+  },
+  "test_macro_f1": 0.3784,
+  "test_macro_f1_estimable": 0.4378,
+  "test": {
+    "EN01": {
+      "precision": 1.0,
+      "recall": 0.2,
+      "f1": 0.333,
+      "test_pos": 5
+    },
+    "EN02": {
+      "precision": 0.5,
+      "recall": 0.412,
+      "f1": 0.452,
+      "test_pos": 17
+    },
+    "EN03": {
+      "precision": 0.556,
+      "recall": 0.417,
+      "f1": 0.476,
+      "test_pos": 12
+    },
+    "EN04": {
+      "precision": 0.375,
+      "recall": 0.667,
+      "f1": 0.48,
+      "test_pos": 9
+    },
+    "EN05": {
+      "precision": 0.333,
+      "recall": 0.5,
+      "f1": 0.4,
+      "test_pos": 2
+    },
+    "EN06": {
+      "precision": 0.222,
+      "recall": 0.4,
+      "f1": 0.286,
+      "test_pos": 5
+    },
+    "EN07": {
+      "precision": 0.462,
+      "recall": 0.857,
+      "f1": 0.6,
+      "test_pos": 7
+    },
+    "EN08": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "test_pos": 2
+    }
+  }
+}
+exit 0
+[23:02:32] dev 781 | test 138 | positif test [5, 17, 12, 9, 2, 5, 7, 2]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 8458.74it/s]
+{
+  "kandidat": "ft_base@8",
+  "komponen": [
+    "ft_base@8"
+  ],
+  "thresholds": {
+    "EN01": 0.3,
+    "EN02": 0.55,
+    "EN03": 0.4,
+    "EN04": 0.8,
+    "EN05": 0.5,
+    "EN06": 0.3,
+    "EN07": 0.4,
+    "EN08": 0.3
+  },
+  "cv_dev_macro_f1": 0.5425,
+  "cv_dev_f1": {
+    "EN01": 0.426,
+    "EN02": 0.551,
+    "EN03": 0.589,
+    "EN04": 0.679,
+    "EN05": 0.4,
+    "EN06": 0.37,
+    "EN07": 0.716,
+    "EN08": 0.609
+  },
+  "test_macro_f1": 0.3802,
+  "test_macro_f1_estimable": 0.3959,
+  "test": {
+    "EN01": {
+      "precision": 0.667,
+      "recall": 0.4,
+      "f1": 0.5,
+      "test_pos": 5
+    },
+    "EN02": {
+      "precision": 0.444,
+      "recall": 0.471,
+      "f1": 0.457,
+      "test_pos": 17
+    },
+    "EN03": {
+      "precision": 0.667,
+      "recall": 0.5,
+      "f1": 0.571,
+      "test_pos": 12
+    },
+    "EN04": {
+      "precision": 0.25,
+      "recall": 0.111,
+      "f1": 0.154,
+      "test_pos": 9
+    },
+    "EN05": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.667,
+      "test_pos": 2
+    },
+    "EN06": {
+      "precision": 0.25,
+      "recall": 0.2,
+      "f1": 0.222,
+      "test_pos": 5
+    },
+    "EN07": {
+      "precision": 0.4,
+      "recall": 0.571,
+      "f1": 0.471,
+      "test_pos": 7
+    },
+    "EN08": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "test_pos": 2
+    }
+  }
+}
+exit 0
+DONE3

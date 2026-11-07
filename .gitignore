@@ -1,0 +1,20 @@
+# Local environment and editor files
+.venv/
+.vscode/
+.superpowers/
+.run_notebook.log
+__pycache__/
+.ipynb_checkpoints/
+*.tmp
+
+# Reports and design notes (not needed to run the code)
+docs/
+
+# Files above GitHub's 100 MB limit.
+# model/best_model.pt is recreated by notebook §7 (about 3 minutes on a 4 GB GPU).
+# The DAPT checkpoint is recreated by `scripts/eksperimen_f1.py dapt` (about 100 minutes).
+# The grade XII textbook PDF is only needed when the corpus is rebuilt (REBUILD_CORPUS = True);
+# corpus/master_corpus.json already contains its sentences.
+model/best_model.pt
+results/eksperimen_f1/dapt/
+data_pdf/Buku Biologi_BS_KLS_XII_Fase F.pdf

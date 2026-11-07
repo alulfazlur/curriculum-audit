@@ -1,0 +1,165 @@
+[17:38:49] dev 781 | test 138 | positif test [5, 17, 12, 9, 2, 5, 7, 2]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  45%|████▍     | 88/197 [00:00<00:00, 866.40it/s]Loading weights:  89%|████████▉ | 175/197 [00:00<00:00, 855.55it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 925.69it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[17:42:45] gabung: lipatan 1/5
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  73%|███████▎  | 144/197 [00:00<00:00, 1430.67it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1482.69it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[17:46:35] gabung: lipatan 2/5
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 124/197 [00:00<00:00, 1236.13it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1363.17it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[17:50:24] gabung: lipatan 3/5
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  57%|█████▋    | 112/197 [00:00<00:00, 1108.22it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1351.12it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[17:54:18] gabung: lipatan 4/5
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  58%|█████▊    | 114/197 [00:00<00:00, 1132.91it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1218.65it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[17:58:02] gabung: lipatan 5/5
+[17:58:14] gabung: CV macro-F1 0.596 (epoch 10) EN01 0.59 EN02 0.57 EN03 0.64 EN04 0.67 EN05+EN06 0.54 EN07 0.72 EN08 0.43
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  65%|██████▌   | 129/197 [00:00<00:00, 1286.66it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1405.43it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+pooler.dense.bias                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+{
+  "skenario": "EN05+EN06 digabung",
+  "epoch": 10,
+  "thresholds": {
+    "EN01": 0.4,
+    "EN02": 0.3,
+    "EN03": 0.25,
+    "EN04": 0.7,
+    "EN05+EN06": 0.4,
+    "EN07": 0.55,
+    "EN08": 0.35
+  },
+  "cv_dev_macro_f1": 0.5957,
+  "cv_dev_f1": {
+    "EN01": 0.591,
+    "EN02": 0.571,
+    "EN03": 0.637,
+    "EN04": 0.673,
+    "EN05+EN06": 0.538,
+    "EN07": 0.724,
+    "EN08": 0.435
+  },
+  "test_macro_f1": 0.4233,
+  "test": {
+    "EN01": {
+      "precision": 0.75,
+      "recall": 0.6,
+      "f1": 0.667,
+      "test_pos": 5
+    },
+    "EN02": {
+      "precision": 0.4,
+      "recall": 0.471,
+      "f1": 0.432,
+      "test_pos": 17
+    },
+    "EN03": {
+      "precision": 0.462,
+      "recall": 0.5,
+      "f1": 0.48,
+      "test_pos": 12
+    },
+    "EN04": {
+      "precision": 0.444,
+      "recall": 0.444,
+      "f1": 0.444,
+      "test_pos": 9
+    },
+    "EN05+EN06": {
+      "precision": 0.333,
+      "recall": 0.286,
+      "f1": 0.308,
+      "test_pos": 7
+    },
+    "EN07": {
+      "precision": 0.5,
+      "recall": 0.857,
+      "f1": 0.632,
+      "test_pos": 7
+    },
+    "EN08": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "test_pos": 2
+    }
+  }
+}

@@ -1,0 +1,111 @@
+[20:54:20] dev 781 | test 138 | positif test [5, 17, 12, 9, 2, 5, 7, 2]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 7277.35it/s]
+[transformers] This checkpoint seem corrupted. The tied weights mapping for this model specifies to tie cls.predictions.bias to cls.predictions.decoder.bias, but both are absent from the checkpoint, and we could not find another related tied weight for those keys
+[transformers] [1mBertForMaskedLM LOAD REPORT[0m from: indobenchmark/indobert-base-p2
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+pooler.dense.weight                        | UNEXPECTED | 
+pooler.dense.bias                          | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | MISSING    | 
+cls.predictions.transform.LayerNorm.weight | MISSING    | 
+cls.predictions.bias                       | MISSING    | 
+cls.predictions.decoder.bias               | MISSING    | 
+cls.predictions.transform.dense.bias       | MISSING    | 
+cls.predictions.transform.LayerNorm.bias   | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[20:54:28] DAPT: 12486 kalimat (test dikeluarkan: 137), 5 epoch
+[21:15:02] DAPT epoch 1: MLM loss 5.1862
+[21:35:03] DAPT epoch 2: MLM loss 3.5265
+[21:55:02] DAPT epoch 3: MLM loss 3.0896
+[22:15:01] DAPT epoch 4: MLM loss 2.8543
+[22:34:37] DAPT epoch 5: MLM loss 2.6534
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.00s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.00s/it]
+exit dapt 0
+[22:34:43] dev 781 | test 138 | positif test [5, 17, 12, 9, 2, 5, 7, 2]
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 133/197 [00:00<00:00, 1324.09it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1491.31it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[22:38:39] dapt: lipatan 1/5 selesai (3.9 menit)
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  67%|██████▋   | 132/197 [00:00<00:00, 1319.28it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1337.30it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[22:42:38] dapt: lipatan 2/5 selesai (7.9 menit)
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  61%|██████    | 120/197 [00:00<00:00, 1197.79it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1370.71it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[22:46:30] dapt: lipatan 3/5 selesai (11.8 menit)
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  68%|██████▊   | 134/197 [00:00<00:00, 1339.80it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1405.91it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[22:50:26] dapt: lipatan 4/5 selesai (15.7 menit)
+Loading weights:   0%|          | 0/197 [00:00<?, ?it/s]Loading weights:  65%|██████▍   | 128/197 [00:00<00:00, 1272.74it/s]Loading weights: 100%|██████████| 197/197 [00:00<00:00, 1330.07it/s]
+[transformers] [1mBertModel LOAD REPORT[0m from: /home/fazlur/curriculum-audit/results/eksperimen_f1/dapt
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+[22:54:11] dapt: lipatan 5/5 selesai (19.5 menit)
+[22:54:23] dapt: CV macro-F1 per epoch 0.257 0.375 0.435 0.485 0.535 0.530 0.561 0.581 0.569 0.578
+exit ft-dapt 0
+DONE2
